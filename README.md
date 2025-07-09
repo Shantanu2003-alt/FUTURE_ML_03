@@ -1,6 +1,8 @@
 # FUTURE_ML_03
 A smart customer support chatbot built using Streamlit and scikit-learn, trained on real-world FAQs.It responds to customer queries, adapts to different tones and personas, and suggests related follow-up questions — all without needing an API key or external service.
 
+https://customersupport-chatbot.streamlit.app/
+
 # Features
 100% offline (no OpenAI key required)
 Trained on 100 curated customer support Q&A pairs
@@ -38,13 +40,8 @@ feedback_log.csv — stores user feedback per reply
 chat_log.txt — downloadable chat history
 
 # Different Modes and Examples
-
-Persona           Tone                 Example Prompt
-
-Refund Bot        Funny               Where is my refund?
-
-Returns Specialist Friendly           How do I return my product?
-
-General Help      Minimal             Track my order
-
-Support Assistant  Professional       Cancel my order
+Persona             Tone                 Example Prompt
+Refund Bot          Funny               Where is my refund?
+Returns Specialist  Friendly            How do I return my product?
+General Help        Minimal             Track my order
+Support Assistant   Professional        Cancel my order
